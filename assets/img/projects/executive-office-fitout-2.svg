@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100" role="img" aria-label="Executive Office Fitout — placeholder image 2" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g252wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3F0EB"/><stop offset="1" stop-color="#E4DFD6"/></linearGradient>
+<linearGradient id="g252tim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C49A67"/><stop offset="0.55" stop-color="#C49A67" stop-opacity="0.82"/><stop offset="1" stop-color="#8A5F37"/></linearGradient>
+<linearGradient id="g252bench" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBFAF8"/><stop offset="1" stop-color="#FBFAF8" stop-opacity="0.86"/></linearGradient>
+<linearGradient id="g252light" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="g252vig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000" stop-opacity="0.18"/><stop offset="0.45" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.26"/></linearGradient>
+</defs>
+<rect width="1600" height="1100" fill="url(#g252wall)"/>
+<rect y="814" width="1600" height="286" fill="#DCD5C9"/>
+<polygon points="80,0 736,0 480,1100 -96,1100" fill="url(#g252light)"/>
+<rect x="832" y="88" width="704" height="286" fill="#EFECE6" rx="6"/>
+<line x1="1066" y1="88" x2="1066" y2="374" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<line x1="1301" y1="88" x2="1301" y2="374" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<rect x="912" y="336" width="75" height="6" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1147" y="336" width="75" height="6" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1381" y="336" width="75" height="6" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="832" y="374" width="704" height="176" fill="#FBFAF8" fill-opacity="0.55"/>
+<rect x="48" y="66" width="320" height="748" fill="url(#g252tim)"/>
+<line x1="48" y1="712" x2="368" y2="706" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="48" y1="374" x2="368" y2="376" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="48" y1="274" x2="368" y2="273" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="48" y1="542" x2="368" y2="543" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="48" y1="94" x2="368" y2="100" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="48" y1="182" x2="368" y2="188" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="48" y1="346" x2="368" y2="350" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<rect x="448" y="572" width="960" height="264" fill="#EFECE6"/>
+<rect x="416" y="523" width="1024" height="55" fill="url(#g252bench)" rx="6"/>
+<line x1="1221" y1="526" x2="1251" y2="559" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="1194" y1="526" x2="1250" y2="559" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="488" y1="526" x2="543" y2="559" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="694" y1="526" x2="748" y2="559" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="1177" y1="526" x2="1199" y2="559" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="576" y1="0" x2="576" y2="330" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="576" cy="363" r="38" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="576" cy="363" r="17" fill="#F6E3BC" fill-opacity="0.75"/>
+<line x1="1280" y1="0" x2="1280" y2="330" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="1280" cy="363" r="38" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="1280" cy="363" r="17" fill="#F6E3BC" fill-opacity="0.75"/>
+<rect width="1600" height="1100" fill="url(#g252vig)"/>
+<text x="1552" y="1051" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="30" letter-spacing="5.4" fill="#FFFFFF" fill-opacity="0.42">PLACEHOLDER</text>
+</svg>

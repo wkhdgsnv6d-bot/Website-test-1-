@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Kitchen Renovations — placeholder image" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g101wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3F0EB"/><stop offset="1" stop-color="#E4DFD6"/></linearGradient>
+<linearGradient id="g101tim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C49A67"/><stop offset="0.55" stop-color="#C49A67" stop-opacity="0.82"/><stop offset="1" stop-color="#8A5F37"/></linearGradient>
+<linearGradient id="g101bench" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBFAF8"/><stop offset="1" stop-color="#FBFAF8" stop-opacity="0.86"/></linearGradient>
+<linearGradient id="g101light" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="g101vig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000" stop-opacity="0.18"/><stop offset="0.45" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.26"/></linearGradient>
+</defs>
+<rect width="1200" height="900" fill="url(#g101wall)"/>
+<rect y="666" width="1200" height="234" fill="#DCD5C9"/>
+<polygon points="60,0 552,0 360,900 -72,900" fill="url(#g101light)"/>
+<rect x="624" y="72" width="528" height="234" fill="#EFECE6" rx="4"/>
+<line x1="800" y1="72" x2="800" y2="306" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<line x1="976" y1="72" x2="976" y2="306" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<rect x="684" y="275" width="56" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="860" y="275" width="56" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1036" y="275" width="56" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="624" y="306" width="528" height="144" fill="#FBFAF8" fill-opacity="0.55"/>
+<rect x="36" y="54" width="240" height="612" fill="url(#g101tim)"/>
+<line x1="36" y1="263" x2="276" y2="265" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="36" y1="542" x2="276" y2="536" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="36" y1="579" x2="276" y2="576" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="36" y1="291" x2="276" y2="289" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="36" y1="281" x2="276" y2="280" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="36" y1="136" x2="276" y2="134" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="36" y1="228" x2="276" y2="223" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<rect x="336" y="468" width="720" height="216" fill="#EFECE6"/>
+<rect x="312" y="428" width="768" height="45" fill="url(#g101bench)" rx="5"/>
+<line x1="886" y1="431" x2="952" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="532" y1="431" x2="612" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="669" y1="431" x2="719" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="988" y1="431" x2="1059" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="768" y1="431" x2="814" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="432" y1="0" x2="432" y2="270" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="432" cy="297" r="31" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="432" cy="297" r="14" fill="#F6E3BC" fill-opacity="0.75"/>
+<line x1="960" y1="0" x2="960" y2="270" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="960" cy="297" r="31" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="960" cy="297" r="14" fill="#F6E3BC" fill-opacity="0.75"/>
+<rect width="1200" height="900" fill="url(#g101vig)"/>
+<text x="1164" y="860" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="25" letter-spacing="4.5" fill="#FFFFFF" fill-opacity="0.42">PLACEHOLDER</text>
+</svg>

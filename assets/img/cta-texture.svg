@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" width="1920" height="900" role="img" aria-label="Custom cabinetry detail — placeholder image" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g6wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1C1F"/><stop offset="1" stop-color="#0E1012"/></linearGradient>
+<linearGradient id="g6tim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A87B4E"/><stop offset="0.55" stop-color="#A87B4E" stop-opacity="0.82"/><stop offset="1" stop-color="#8A5F37"/></linearGradient>
+<linearGradient id="g6bench" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D9D6D0"/><stop offset="1" stop-color="#D9D6D0" stop-opacity="0.86"/></linearGradient>
+<linearGradient id="g6light" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="g6vig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000" stop-opacity="0.18"/><stop offset="0.45" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.26"/></linearGradient>
+</defs>
+<rect width="1920" height="900" fill="url(#g6wall)"/>
+<rect y="666" width="1920" height="234" fill="#1F2124"/>
+<polygon points="96,0 883,0 576,900 -115,900" fill="url(#g6light)"/>
+<rect x="998" y="72" width="844" height="234" fill="#232629" rx="7"/>
+<line x1="1209" y1="72" x2="1209" y2="306" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<line x1="1420" y1="72" x2="1420" y2="306" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<line x1="1632" y1="72" x2="1632" y2="306" stroke="#000" stroke-opacity="0.16" stroke-width="2"/>
+<rect x="1071" y="275" width="67" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1282" y="275" width="67" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1493" y="275" width="67" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="1704" y="275" width="67" height="5" fill="#C7A15A" fill-opacity="0.85" rx="2"/>
+<rect x="998" y="306" width="844" height="144" fill="#D9D6D0" fill-opacity="0.55"/>
+<rect x="57" y="54" width="384" height="612" fill="url(#g6tim)"/>
+<line x1="57" y1="146" x2="441" y2="147" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="57" y1="101" x2="441" y2="95" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="57" y1="545" x2="441" y2="551" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="57" y1="446" x2="441" y2="445" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="57" y1="343" x2="441" y2="344" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="1"/>
+<line x1="57" y1="487" x2="441" y2="489" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<line x1="57" y1="160" x2="441" y2="157" stroke="#5E3F22" stroke-opacity="0.13" stroke-width="2"/>
+<rect x="537" y="468" width="1152" height="216" fill="#232629"/>
+<rect x="499" y="428" width="1228" height="45" fill="url(#g6bench)" rx="5"/>
+<line x1="1080" y1="431" x2="1111" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="1406" y1="431" x2="1468" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="727" y1="431" x2="793" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="1376" y1="431" x2="1428" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="1448" y1="431" x2="1480" y2="458" stroke="#8E8A82" stroke-opacity="0.22" stroke-width="1"/>
+<line x1="691" y1="0" x2="691" y2="270" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="691" cy="297" r="31" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="691" cy="297" r="14" fill="#F6E3BC" fill-opacity="0.75"/>
+<line x1="1113" y1="0" x2="1113" y2="270" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="1113" cy="297" r="31" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="1113" cy="297" r="14" fill="#F6E3BC" fill-opacity="0.75"/>
+<line x1="1536" y1="0" x2="1536" y2="270" stroke="#C7A15A" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="1536" cy="297" r="31" fill="#C7A15A" fill-opacity="0.28"/>
+<circle cx="1536" cy="297" r="14" fill="#F6E3BC" fill-opacity="0.75"/>
+<rect width="1920" height="900" fill="url(#g6vig)"/>
+<text x="1863" y="860" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="25" letter-spacing="4.5" fill="#FFFFFF" fill-opacity="0.42">PLACEHOLDER</text>
+</svg>
