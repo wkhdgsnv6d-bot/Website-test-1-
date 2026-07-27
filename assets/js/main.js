@@ -252,7 +252,9 @@
     box.setAttribute("aria-label", "Project image viewer");
     box.innerHTML =
       '<button class="lightbox__close" type="button" aria-label="Close image viewer">&#10005;</button>' +
-      '<div><img alt="" /><p class="lightbox__caption"></p></div>';
+      // Transparent 1px placeholder so the element is never a src-less <img>.
+      '<div><img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />' +
+      '<p class="lightbox__caption"></p></div>';
     document.body.appendChild(box);
 
     var img = $("img", box);
