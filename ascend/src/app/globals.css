@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   ASCEND AUTOMATION — design tokens
+   Monochrome only. Pure black → charcoal → soft grey → off-white → white.
+   ========================================================================== */
+
+@theme {
+  /* Surface + ink scale */
+  --color-ink: #000000;
+  --color-obsidian: #070707;
+  --color-charcoal: #101010;
+  --color-graphite: #181818;
+  --color-steel: #262626;
+  --color-slate: #3a3a3a;
+  --color-ash: #6e6e6e;
+  --color-silver: #a0a0a0;
+  --color-mist: #c9c7c3;
+  --color-bone: #f1f0ed;
+  --color-paper: #fafaf8;
+
+  /* Hairlines */
+  --color-line-dark: rgba(255, 255, 255, 0.12);
+  --color-line-light: rgba(0, 0, 0, 0.12);
+
+  --font-display: var(--font-archivo), "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-sans: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --ease-ascend: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+
+  /* A single, consistent focus treatment that reads on light and dark. */
+  :focus-visible {
+    outline: 1px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Editorial display type: tight, architectural, uppercase-friendly. */
+  .type-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 0.92;
+    text-transform: uppercase;
+  }
+
+  .type-serif-off {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  /* Small wide-tracked labels used as section markers. */
+  .type-label {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .type-meta {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+}
+
+@utility hairline-t {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+@utility hairline-b {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/* Fine grain overlay — keeps large black fields from looking flat. */
+@utility grain {
+  position: relative;
+}
+
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Thin architectural rule that draws itself into view. */
+@keyframes rule-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}

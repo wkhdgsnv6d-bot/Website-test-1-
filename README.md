@@ -34,10 +34,11 @@ can edit a text file, you can edit this website.
 │   └── img/                 All imagery
 │       ├── brand/           Favicon + logo placeholder
 │       ├── services/        One image per service
-│       ├── projects/        Three images per project
+│       ├── projects/        Project photography (real .jpg + placeholder .svg)
 │       └── instagram/       Instagram grid tiles
 └── tools/
-    └── generate-placeholders.py   Regenerates the placeholder images
+    └── generate-placeholders.py   Regenerates the placeholder art only
+                                   (it never touches the real .jpg photos)
 ```
 
 To preview the site locally, open `index.html` in a browser. For an exact
@@ -57,21 +58,23 @@ Everything below is a placeholder that needs a real value.
 
 | # | What to change | Where |
 |---|---|---|
-| 1 | **All photography.** Every image is a generated placeholder marked "PLACEHOLDER". | `assets/img/` — see §4 |
+| 1 | **Remaining photography.** Five real photos are in place (see §4.1). Everything still marked "PLACEHOLDER" needs replacing. | `assets/img/` — see §4.2 |
 | 2 | **The logo.** Currently a text wordmark. | See §4.3 |
 | 3 | **The domain.** `https://www.acaciakitchens.com.au` appears in every page's canonical, Open Graph and schema tags. | See §3.3 |
 | 4 | **Form delivery.** Forms currently validate but do not send. | See §5 |
 | 5 | **Testimonials.** All reviews are labelled "Sample review". | `testimonials.html`, `index.html` |
-| 6 | **Project details.** Names, locations, materials and finishes are examples. | `projects.html` |
+| 6 | **Project locations**, plus the 4 remaining example projects. Real entries show "Location to be confirmed". | `projects.html` |
 | 7 | **Opening hours.** Marked "to be confirmed". | `contact.html` |
 | 8 | **Legal pages.** Templates, not legal advice — have them reviewed. | `privacy-policy.html`, `terms-conditions.html` |
 | 9 | **HIA finalist details.** Listed as recognition only, with no invented specifics. | `awards.html` |
-| 10 | **Social preview image.** `og-image.svg` should become a real photo. | See §4.4 |
+| 10 | **Higher-resolution hero.** The hero photo is only 1206&nbsp;px wide and is upscaled on large screens. Supply the full-resolution original. | `assets/img/projects/hardwood-white-kitchen-1.jpg` |
 
 **Nothing has been invented.** No awards, licences, guarantees, certifications,
 customer reviews or business history appear anywhere beyond the information
-supplied. Where a fact was not available, the page says so plainly rather than
-filling the gap.
+supplied. Descriptions of the five real project photos state only what is
+visible in them — exact product names, suppliers and locations are marked
+"to be confirmed" rather than guessed. Where a fact was not available, the page
+says so plainly rather than filling the gap.
 
 ---
 
@@ -153,6 +156,32 @@ Three things to know:
 - **Phone and email appear in several places** per page — header, footer,
   mobile menu, call bar. Use find-and-replace so none are missed.
 
+### 4.1a Photos already in place
+
+Five genuine Acacia Kitchens photographs are live on the site:
+
+| File | Shown on |
+|---|---|
+| `projects/hardwood-white-kitchen-1.jpg` | Home hero, services hero, Custom Kitchens service, Projects |
+| `projects/concrete-island-kitchen-1.jpg` | Kitchen Renovations service, quote page hero, social preview, Projects |
+| `projects/alfresco-black-kitchen-1.jpg` | Outdoor Kitchens service, Awards page, home CTA band, Projects |
+| `projects/stone-timber-laundry-1.jpg` | Laundry Cabinetry service, Projects |
+| `projects/stone-timber-laundry-2.jpg` | Home services grid, Projects gallery |
+
+Two things to note about them:
+
+- They were supplied as screenshots with a carousel counter badge in the
+  corner, which has been cropped off. **Supplying the original camera files
+  would noticeably improve quality**, particularly for the hero, which is
+  currently upscaled on wide screens.
+- The project locations are unknown, so every one of them shows
+  "Location to be confirmed". Fill these in on `projects.html`.
+
+The Awards page carries a caption stating the pictured outdoor kitchen is *an*
+Acacia Kitchens project, not necessarily the award-winning entry — because that
+has not been confirmed. If the photo of the actual winning kitchen is supplied,
+swap it in and remove that caption.
+
 ### 4.2 Replacing images
 
 Every image is a placeholder. To swap one in, **give the new photo the same
@@ -161,13 +190,14 @@ are needed at all.
 
 | Placeholder | Replace with | Suggested size |
 |---|---|---|
-| `assets/img/hero-kitchen.svg` | The best kitchen photo you have | 2000 × 1125 px |
 | `assets/img/about-workshop.svg` | Workshop interior | 1200 × 900 px |
 | `assets/img/about-team.svg` | The team | 1200 × 900 px |
-| `assets/img/awards-feature.svg` | The award-winning outdoor kitchen | 1400 × 900 px |
-| `assets/img/services/<name>.svg` | That service | 1200 × 900 px |
-| `assets/img/projects/<name>-1..3.svg` | That project, 3 shots | 1600 × 1100 px |
+| `assets/img/process-feature.svg` | A design consultation | 1400 × 900 px |
+| `assets/img/contact-showroom.svg` | The Aitkenvale premises | 1200 × 800 px |
+| `assets/img/services/<name>.svg` | That service (13 still placeholder) | 1200 × 900 px |
+| `assets/img/projects/<name>-1..3.svg` | That project, 3 shots (4 still placeholder) | 1600 × 1100 px |
 | `assets/img/instagram/post-1..6.svg` | Recent Instagram posts | 800 × 800 px |
+| `assets/img/og-image.jpg` | Social preview — already a real photo | 1200 × 630 px |
 
 If you use `.jpg` files instead of `.svg` (recommended for photographs), you
 must also update the filename in the HTML. Find `hero-kitchen.svg` and change
@@ -217,10 +247,10 @@ Also replace `assets/img/brand/favicon.svg` with the real icon.
 
 ### 4.4 The social preview image
 
-`assets/img/og-image.svg` is what appears when someone shares a link on
-Facebook, Instagram or in a message. Replace it with a real photo at
-**1200 × 630 px**, saved as `og-image.jpg`, then find-and-replace
-`og-image.svg` → `og-image.jpg` across the HTML files.
+`assets/img/og-image.jpg` is what appears when someone shares a link on
+Facebook, Instagram or in a message. It is already a real photo, cropped to the
+**1200 × 630 px** that social platforms expect. To change it, replace the file
+at the same size and filename — no HTML changes needed.
 
 ### 4.5 Adding a new project
 
@@ -244,8 +274,12 @@ each and edit it.
 
 **Second**, the detail entry — copy any block starting
 `<article class="project-entry"`, and set `id="my-new-project"` to match the
-`href` above. Fill in the three gallery images and the specification table
+`href` above. Fill in the gallery images and the specification table
 (category, location, materials, cabinet finish, benchtop).
+
+If you are copying a placeholder entry, delete its
+`<span class="sample-tag">Example project…</span>` line — that marker exists so
+nobody mistakes an example layout for real work.
 
 The `data-category` value controls the filter buttons. Use one of the existing
 categories, or add a new filter button in the `.filter-bar` block to introduce
@@ -375,8 +409,12 @@ content changes:
 
 - Every image has descriptive alt text (decorative images are hidden from
   screen readers instead).
-- All text meets or exceeds a 4.5:1 contrast ratio. The hero uses two layered
-  scrims so headline contrast holds regardless of the photo behind it.
+- All text meets or exceeds a 4.5:1 contrast ratio (large headings 3:1). The
+  hero uses two layered scrims, tuned against the *brightest pixel* behind the
+  type rather than the average: currently 9.1:1 behind the headline on desktop
+  and 5.5:1 on mobile. **If you swap the hero for a much brighter photo,
+  re-check that the headline and sub-heading are still readable** and darken
+  the `.hero::after` gradients in `styles.css` if not.
 - The site is fully keyboard navigable, with a visible gold focus ring and a
   "Skip to main content" link.
 - Menus, accordions, the image viewer and form errors all announce their state
